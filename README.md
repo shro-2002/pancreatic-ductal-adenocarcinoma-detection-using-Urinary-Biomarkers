@@ -32,7 +32,7 @@ Other biomarkers are included but not measured in all patients, serving as addit
 
 ### Prediction Task
 
-The primary goal of this project is to predict the diagnosis, specifically distinguishing between three categories: pancreatic cancer (3), non-cancerous pancreatic condition (2), and healthy (1). The dataset contains information on pancreatic cancer stages and diagnoses for non-cancerous patients, but these won't be available for predictive modeling. The emphasis is on predicting disease presence before formal diagnosis, aligning with the goal of early detection.
+The dataset labels three groups: healthy (1), non-cancerous pancreatic condition (2) and pancreatic cancer (3). This project frames it as a **binary** task: PDAC (3) vs not PDAC (1 and 2). The `stage` and `benign_sample_diagnosis` columns are excluded because they encode the label.
 
 ## Results (leak-free, Oct 2026)
 
